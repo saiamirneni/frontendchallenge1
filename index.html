@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | Order summary card</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style>
+</head>
+<body>
+  <div class="main">
+  <div class="image">
+    <img src="images/illustration-hero.svg" alt="Hero image">
+  </div>
+<div class="content">
+  <h2>Order Summary</h2>
+
+ <p style="color: gray;">You can now listen to millions of songs, audiobooks, and podcasts on any 
+  device anywhere you like!</p>
+
+  <div class="box">
+  <img src="images/icon-music.svg">
+  <p> Annual Plan<br>
+    $59.99/year</p>
+    <a href='#'>Change</a>
+    </div>
+  
+
+  
+
+  <p class="box1" style="color: white;">Proceed to Payment</p>
+  <p style="color: gray;">Cancel Order</p>
+</div>
+</div>
+<footer>
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="#">saitarun</a>.
+  </footer>
+
+</body>
+<style>
+  body{
+    background-image: url('images/pattern-background-desktop.svg');
+  }
+ .main
+ {
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   margin: 80px;
+
+ }
+ .content
+ {
+   display: flex;
+   width: 450px;
+   align-items: center;
+   flex-direction: column;
+   justify-content: center;
+   background-color: white;
+ }
+ h2{
+   text-align: center;
+   text-decoration: solid black;
+ }
+ p{
+   max-width: 260px;
+   text-align: center;
+   margin: 20px;
+ }
+ .box
+ {
+   background-color: whitesmoke;
+   display: flex;
+   flex-direction: row;
+   align-items: center;
+   justify-content: center;
+ }
+ footer{
+   text-align: center;
+ }
+ .box1
+ {
+   border-radius: 10px;
+   background-color: blue;
+   padding: 10px;
+   width: 450px;
+ }
+</style>
+</html>
